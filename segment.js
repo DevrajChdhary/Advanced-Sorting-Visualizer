@@ -30,7 +30,6 @@ class Segment{
             }
         }
     }
-
     draw(ctx){
         ctx.beginPath();
         ctx.moveTo(this.pA.loc.x,this.pA.loc.y);
