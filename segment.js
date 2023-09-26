@@ -5,7 +5,6 @@ class Segment{
         this.pB=pB;
         this.len=distance(pA.loc,pB.loc);
     }
-
     update(){
         const dir=subtract(this.pA.loc,this.pB.loc);
         const curLen=magnitude(dir);
