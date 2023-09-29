@@ -9,7 +9,6 @@ function vLerp(A,B,t){
     }
     return res;
 }
-
 function add(A,B){
     const res={};
     for(let attr in A){
