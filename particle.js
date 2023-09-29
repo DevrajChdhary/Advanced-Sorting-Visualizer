@@ -4,7 +4,6 @@ class Particle{
         this.oldLoc=loc;
         this.fixed=fixed;
     }
-
     update(force){
         if(this.fixed){
             return;
