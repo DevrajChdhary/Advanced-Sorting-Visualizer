@@ -11,7 +11,6 @@ class Bird{
         this.legLength=distance(this.lFoot,this.head)*1.36;
         this.#update();
     }
-
     moveTo(lFoot,rFoot,doBounce=false,frameCount=40){
         for(let i=1;i<=frameCount;i++){
             const t=i/frameCount;
